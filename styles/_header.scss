@@ -1,0 +1,7 @@
+header {
+  @include flexStyle(antiquewhite);
+  h1 {
+    font-size: 40px;
+    color: $textColor;
+  }
+}

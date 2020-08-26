@@ -1,0 +1,39 @@
+section {
+  h2 {
+    color: $h2Color;
+    font-size: 35px;
+    padding: 20px;
+    text-align: center;
+  }
+  .about {
+    @include flexStyle(#e0ffff);
+    .intro {
+      font-size: 20px;
+      padding: 20px;
+      font-style: italic;
+    }
+    .list {
+      padding: 30px;
+      line-height: 25px;
+    }
+  }
+  .information {
+    @include flexStyle(#e3fbe3);
+    p {
+      font-size: 18px;
+      padding: 20px 50px;
+      line-height: 25px;
+    }
+  }
+  .contact {
+    @extend header;
+    p {
+      line-height: 30px;
+      font-size: 20px;
+    }
+  }
+  .reference {
+    font-style: italic;
+    color: $textColorItalic;
+  }
+}
